@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<TableLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".NotesActivity"
+    android:orientation = "vertical">
+    <EditText
+        android:id="@+id/noteArea"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:inputType="text|textMultiLine"
+        android:gravity="top"/>
+        <TableRow>
+        <Button
+        android:id = "@+id/save"
+        android:text = "Save"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+            android:textColor="#ffffff"
+            android:background="#ffff299f"
+            android:layout_margin="10dp"/>
+    <Button
+        android:id = "@+id/clear"
+        android:text = "Clear"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:textColor="#ffffff"
+        android:background="#ffff299f"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id = "@+id/undo"
+        android:text = "Undo"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:textColor="#ffffff"
+        android:background="#ffff299f"
+        android:layout_margin="10dp"/>
+        </TableRow>
+</TableLayout>
